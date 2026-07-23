@@ -1,0 +1,36 @@
+    1  cd
+    2  ls
+    3  cler
+    4  clear
+    5  git
+    6  git clone https://github.com/ivanpoloz2005-code/HW_10.git
+    7  cd
+    8  ls
+    9  cd HW_10
+   10  touch text_ignore.txt
+   11  nano .gitignore
+   12  git status
+   13  git add .gitignore
+   14  git status
+   15  commit 
+   16  commit -m "Done"
+   17  git commit -m "Done"
+   18  touch main_test.txt
+   19  git add main_test.txt
+   20  git commit -m "Done 2"
+   21  git checkout -b <develop>
+   22  git checkout -b develop
+   23  git checkout
+   24  git checkout develop
+   25  touch develop_test.txt 
+   26  git add develop_test.txt
+   27  git commit -m "Done 3"
+   28  nano develop_test.txt
+   29  git status develop_test.txt
+   30  git add develop_test.txt
+   31  git status 
+   32  git commit -m "Done 3.1"
+   33  git checkout main
+   34  git merge develop
+   35  git log
+   36  history > command_list.csv
